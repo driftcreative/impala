@@ -74,7 +74,7 @@ nav {
 	padding: 20px;
 }
 
-.vehicle-booking:before{
+.home .vehicle-booking:before{
 	content:'';
 	display: block;
 	width:511px;
@@ -310,5 +310,94 @@ span.control-title {
 	width:100%;
 }
 
+.drop {
+	margin-top: 0px !important;
+}
+
+.drop:before {
+	background: none !important;
+}
 
 
+/* Multistep Form Breadcrumbs */
+ol.cd-multi-steps {
+    height: auto;
+    max-height: 30px;
+    margin-top: 60px;
+    list-style: none;
+    text-align:center;
+	margin-bottom:100px;
+}
+
+ol.cd-multi-steps li {
+    display:inline-block;
+    margin-left:120px;
+}
+
+ol.cd-multi-steps li:first-child {
+    display:inline-block;
+    margin-left:0px;
+}
+
+ol.cd-multi-steps li:first-child:before {
+    content:'1';
+    width:100%;
+    display:block;
+    background:#424242;
+    border-radius:50px;
+    width:50px;
+    height:50px;
+    font-size:20px;
+    font-weight:bold;
+    line-height:2.5em;
+    text-align:center;
+    margin:0 auto;
+
+}
+
+
+ol.cd-multi-steps li:nth-child(2):before {
+    content:'2';
+    width:100%;
+    display:block;
+    background:#424242;
+    border-radius:50px;
+    width:50px;
+    height:50px;
+    font-size:20px;
+    font-weight:bold;
+    line-height:2.5em;
+    text-align:center;
+    margin:0 auto;
+}
+
+
+ol.cd-multi-steps li:last-child:before {
+    content:'3';
+    width:100%;
+    display:block;
+    background:#424242;
+    border-radius:50px;
+    width:50px;
+    height:50px;
+    font-size:20px;
+    font-weight:bold;
+    line-height:2.5em;
+    text-align:center;
+    margin:0 auto;
+}
+
+.cd-multi-steps li.current:before {
+	background:#063F24 !important;	
+}
+
+
+.cd-multi-steps li.visited:before {
+	background:#18b36a !important;	
+}
+
+.cd-multi-steps li:after {
+	content:'';
+	width:100%;
+	border-bottom:1px solid #fff;
+}
