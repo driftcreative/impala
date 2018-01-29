@@ -1,0 +1,314 @@
+/* Font Import 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Ubuntu'); */
+
+/* Header Styleing */
+
+.countrySelector {
+	z-index: 99999;
+	position: relative;
+	margin:auto;
+	left: 0;
+	right: 0;
+}
+
+.countrySelector ul {	
+    margin-right: -10px;
+}
+
+.countrySelector  li a {	
+    text-transform: none !important;	
+    font-size: 12px;
+}
+
+
+
+.countrySelector img {
+	margin-right:5px;
+}
+
+.nav-utility {
+	overflow: visible !important;
+}
+
+nav {
+	max-width: 1366px !important;
+  margin: 0 auto !important;
+  left:  0 !important;
+  right: 0 !important;
+}
+
+.border-right {
+	border-left:1px solid #073924;
+	padding-left:20px;
+}
+
+
+
+.social-menu a {
+	   display: inline;
+}
+
+.social-menu a:hover:after {
+	 background: #063f24;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: -45px;
+    color: #fff;
+    line-height: 1em;
+    content: attr(title);
+    left: 0;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    font-size: 9px;
+    width: 220px;
+}
+
+.vehicle-booking-container {
+	margin-top: -149px;
+	padding-top: 90px;
+}
+
+.vehicle-booking {
+	background: #1e1e1e;
+	padding: 20px;
+}
+
+.vehicle-booking:before{
+	content:'';
+	display: block;
+	width:511px;
+	height: 189px;
+	position: absolute;
+	z-index: 9999;
+	right: 0;
+	top: -90px;
+	background: url(../images/booking_top.png) center no-repeat;
+	background-size: contain;
+}
+.vehicle-booking small{
+	margin-top:-40px !important;
+	color: #fff;	
+	line-height: 1em;
+}
+
+@media all and (max-width: 767px) {
+	.vehicle-booking:before	
+		{
+			content:'';				
+		display: block;
+		width:311px;
+		height: 189px;
+		position: absolute;
+		z-index: 9999;
+		right: 10%;
+		top: -120px;
+		background: url(../images/booking_top.png) center no-repeat;
+		background-size: contain;
+	 	}	
+
+ 	.vehicle-booking-container {
+		margin-top: -189px;
+		padding-top: 90px;
+		}
+
+ 	.border-right {
+		border-left:none;
+		float:left !important;
+		width:50% !important;
+		padding-left:0;
+	}
+
+	.vehicle_slider {
+		max-height: 710px !important;
+	}
+
+	.vehicle_slider table {
+		display: none;
+	}
+
+	.vehicle_slider .btn {
+		display: none;
+	}
+
+	.services {
+		text-align: center !important;
+	}
+	.services img {
+		width: 50%;
+	}
+
+	.imp_icon img {
+    width: 50% !important;
+    text-align: center;
+	}
+
+	.text-center-large {
+    font-size: 155px !important;
+}
+
+
+.time-control select {
+	width: 100% !important;
+}
+
+.time-control {
+    margin-top: 20px;
+}
+
+
+
+}
+
+.location-control:before {
+    display: inline-block;
+    content: '\e693';
+    width: 50px;
+    float: left;
+    height: 50px;
+    background: white;
+    font-family: "themify";
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.date-control:before {
+   display: inline-block;
+    content: '\e6b6';
+    width: 15%;
+    float: left;
+    height: 50px;
+    background: white;
+    font-family: "themify";
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold
+}
+
+
+.m0 {
+	margin:0 !important;
+}
+
+.auto-width {
+	width: 58% !important;
+}
+
+span.control-title {
+    display: inline-block;
+    background: #fefefe;
+    color: #1e1e1e;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 3em;
+    float: left;
+    height: 50px;
+    width: 27%;
+    border-right: 2px solid #cecece;
+}
+
+
+.heading2 {
+  font-size: 36px;
+  font-family: "Open Sans";
+  color: rgb(32, 32, 32);
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-weight:  800;
+  text-align: center;
+}
+
+
+.text-white {
+	color:#fff;
+}
+.services {
+    background: #063f24;
+    padding: 40px;
+    height: auto;
+    color: #fff;
+}
+
+.services_container {
+	background: url(../images/keys.png) 5% 60%;
+	background-repeat: no-repeat;
+}
+
+
+.strong {
+	font-weight: 800 !important;
+}
+
+.imp_icon {
+	margin-right:20px;
+}
+
+.imp_icon img {
+    width: 90%;
+}
+
+.right p {
+    font-size: 21px;
+    line-height: 1.4em;
+}
+
+
+.vehicle_slider {
+	background: #d8d8d8;
+	height: auto;
+	padding: 0;
+	max-height: 350px;
+}
+
+.fleet_details {
+	background:url(../images/fleet_bg.png) center center no-repeat;
+	background-size: contain;
+	padding: 30px;
+}
+
+.text-center-large {
+    font-size: 195px;
+    line-height: .4em;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+.borders {
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+	padding: 5px 0px 5px 0px;
+	font-size: 21px;
+}
+
+
+.group_features {
+    font-size: 22px;
+}
+
+.group_features tr {
+    border-bottom: 1px solid #1e1e1e;
+    width: 100%;
+    height: 35px;
+}
+
+.group_features td:nth-child(2){
+    padding-left:30px;
+}
+
+.noborder {
+	border:none;
+}
+
+.fullwidth {
+	width:100%;
+}
+
+
+
