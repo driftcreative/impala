@@ -127,6 +127,20 @@ nav {
 		display: none;
 	}
 
+	.home .vehicle-booking:before{
+	content:'';
+	display: block;
+	width:511px;
+	height: 109px;
+	position: absolute;
+	z-index: 9999;
+	left: 0px;
+	top: -90px;
+	background: url(../images/booking_top.png) center no-repeat;
+	background-size: contain;
+}
+
+
 	.vehicle_slider .btn {
 		display: none;
 	}

@@ -879,7 +879,7 @@ nav .btn,
 }
 .nav-bar {
   height: 85px;
-  max-height: 85px;
+  max-height: 120px;
   line-height: 150px;
 }
 .nav-bar .module,
