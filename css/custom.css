@@ -415,3 +415,7 @@ ol.cd-multi-steps li:last-child:before {
 	width:100%;
 	border-bottom:1px solid #fff;
 }
+
+.vehicle-booking-container  div {
+	color: #fff !important;
+}

@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Impala Car Hire - Home Page</title>
+        <title>Impala Car Hire - Booking Step 2- Contact Information</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
         <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
@@ -53,7 +53,7 @@
                         <div class="module left">
                             <ul class="menu">
                                 <li>
-                                    <a href="booking.html">Make a Booking</a>
+                                    <a href="booking-1.html">Make a Booking</a>
                                 </li>
                                 <li>
                                     <a href="fleet.html">Our Fleet</a>
@@ -92,145 +92,44 @@
                                     <h2 class="mb-xs-16">Make a <strong>Booking</strong> Today!<br class="hidden-sm"><span class="white sub col-sm-12">In 3 Easy Steps</span></h2>
                                     <p>
                                         <ol class="cd-multi-steps text-bottom count">
-                                            <li class="current"><a href="#1">Step 1<br class="m0"><small>Booking Details</small></a></li>
-                                            <li class="" ><a href="#2">Step 2<br class="m0"><small>Contact Information</small></a></li>
-                                            <li><a href="#3">Step 3<br class="m0"><small>Confirmation</small></a></li>
+                                            <li class=""><a href="booking-1.html">Step 1<br class="m0"><small>Booking Details</small></a></li>
+                                            <li class="current" ><a href="booking-2.html">Step 2<br class="m0"><small>Contact Information</small></a></li>
+                                            <li class=""><a href="booking-3.html">Step 3<br class="m0"><small>Confirmation</small></a></li>
                                         </ol>
                                     </p>
                                     <p class="lead mb40">
                                       <form>
                                         <div class="row">
+                                            <div class="col-md-6 col-sm-12">
+                                                <input class="" type="text" name="First Name" placeholder="First Name">
+                                            </div>
+                                            <div class="col-md-6 col-sm-12">
+                                                <input class="" type="text" name="Last Name" placeholder="Last Name">
+                                            </div>
+                                        </div>
+                                        <div class="row">
                                             <div class="col-md-12">
-                                               <select id="imp_Vehicles">
-                                                    <option value="Corolla">Select a Vehicle</option>
-                                                  <optgroup label="Group A- Hatch Backs">
-                                                    <option value="Kwid">Renault Kwid</option>
-                                                    <option value="Kwid">Datsun Go</option>
-                                                    <option value="Kwid">Mazda Demio</option>
-                                                  </optgroup>
-                                                  <optgroup label="Group A2- Sedans">
-                                                    <option value="allion">Toyota Allion</option>
-                                                    <option value="corolla">Toyota Corolla</option>
-                                                    <option value="axio">Totyota Axio</option>
-                                                  </optgroup>      
-                                                  <optgroup label="Group B- Mini SUVs">
-                                                    <option value="CRV">Honda CRV</option>
-                                                  </optgroup>
-                                                  <optgroup label="Group C- Double Cabs">
-                                                    <option value="KB300">Isuzu KB300</option>
-                                                    <option value="rangerT6">Ford Ranger T6</option>
-                                                    <option value="hilix">Toyota Hilux</option>
-                                                    <option value="rangerWildtrak">Ford Ranger Wildtrak</option>
-                                                  </optgroup>
-                                                   <optgroup label="Group D- Executive SUVs">
-                                                    <option value="fortuna">Toyota Fortuna</option>
-                                                    <option value="trailblazer">Chev Trailblazer</option>
-                                                    <option value="prado">Toyota Prado</option>
-                                                    <option value="discovery">Landrover Discovery 4</option>
-                                                  </optgroup> 
-                                                  <optgroup label="Group E-  Executive Vehicles">
-                                                    <option value="eClass">Mercedes Benz E-Class</option>
-                                                    <option value="cClass">Mercedes Benz C-Class</option>
-                                                  </optgroup>
-                                                  <optgroup label="Group F- Mini-Buses">
-                                                    <option value="quantum">Toyota Quantum</option>
-                                                    <option value="coaster">Toyota Coaster</option>
-                                                  </optgroup>
-                                                </select>
+                                                <input class="" type="text" name="eMail" placeholder="E-Mail Address">
                                             </div>
                                         </div>
-                                        <div class="row pickupDate">
-                                            <div class="col-md-5 col-sm-12 location-control ">
-                                                <span class="control-title">Pick Up</span>
-                                                 <select id="imp_vehicleGroup" class="auto-width" >
-                                                    <option selected value="null">Pick Up Location</option>
-                                                    <option value="imp_Harare" id="imp_Harare">Harare</option>
-                                                    <option valude="imp_Bulawayo" id="img_Bulawayo">Bulawayo</option>
-                                                    <option valude="imp_VictoriaFallss" id="img_VictoriaFalls">Victoria Falls</option>
-
-                                                </select>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <input class="" type="text" name="phoneNumber" placeholder="Phone Number">
                                             </div>
-                                            <div class="col-md-4 col-sm-10 date-control" >
-                                               <span class="control-title">Pick Up</span>
-                                                <input type='text' value="Pick Up Date" class="m0 auto-width date-time" id='imp_pickUp_Date' /> 
-                                            </div>     
-                                             <div class="col-md-3 col-sm-10 time-control">
-                                                <select id="imp_pickup_Time" >
-                                                    <option selected value="null">Pick Up Time</option>
-                                                    <option value="imp_0800" id="imp_0800">08:00HRS</option>
-                                                    <option value="imp_0830" id="imp_0830">08:30HRS</option>
-                                                    <option value="imp_0900" id="imp_0900">09:00HRS</option>
-                                                    <option value="imp_0930" id="imp_0930">09:30HRS</option>
-                                                    <option value="imp_1000" id="imp_1000">10:00HRS</option>
-                                                    <option value="imp_1030" id="imp_1030">10:30HRS</option>
-                                                    <option value="imp_1100" id="imp_1100">11:00HRS</option>
-                                                    <option value="imp_1130" id="imp_1130">11:30HRS</option>
-                                                    <option value="imp_1200" id="imp_1200">12:00HRS</option>
-                                                    <option value="imp_1230" id="imp_1230">12:30HRS</option>
-                                                    <option value="imp_1300" id="imp_1300">13:00HRS</option>
-                                                    <option value="imp_1330" id="imp_1330">13:30HRS</option>
-                                                    <option value="imp_1400" id="imp_1400">14:00HRS</option>
-                                                    <option value="imp_1430" id="imp_1430">14:30HRS</option>
-                                                    <option value="imp_1500" id="imp_1500">15:00HRS</option>
-                                                    <option value="imp_1530" id="imp_1530">15:30HRS</option>
-                                                    <option value="imp_1600" id="imp_1600">16:00HRS</option>
-                                                    <option value="imp_1630" id="imp_1630">16:30HRS</option>
-                                                    <option value="imp_1700" id="imp_1600">17:00HRS</option>
-
-                                                </select>
-                                            </div> 
                                         </div>
-
-                                            <div class="row dropOffDate">
-                                            <div class="col-md-5 col-sm-12 location-control ">
-                                               <span class="control-title">Drop Off</span>
-                                                 <select id="imp_vehicle-group" class="auto-width" >
-                                                    <option selected value="null">Drop Off Location</option>
-                                                    <option value="imp_pickup_Harare" id="imp_pickup_Harare">Harare</option>
-                                                    <option valude="imp_pickup_Bulawayo" id="img_pickup_Bulawayo">Bulawayo</option>
-                                                    <option valude="imp_pickup_VictoriaFallss" id="img_pickup_ictoriaFalls">Victoria Falls</option>
-
-                                                </select>
-                                            </div>
-                                            <div class="col-md-4 col-sm-10 date-control" >
-                                               <span class="control-title">Drop Off</span>
-                                                <input type='text' value="Drop Off Date" class="m0 auto-width date-time" id='imp_dropOff_Date' /> 
-                                            </div>     
-                                             <div class="col-md-3 col-sm-10 time-control">
-                                                <select id="imp_dropOff_Time">
-                                                    <option selected value="null">Drop Off Time</option>
-                                                    <option value="imp_0800" id="imp_0800">08:00HRS</option>
-                                                    <option value="imp_0830" id="imp_0830">08:30HRS</option>
-                                                    <option value="imp_0900" id="imp_0900">09:00HRS</option>
-                                                    <option value="imp_0930" id="imp_0930">09:30HRS</option>
-                                                    <option value="imp_1000" id="imp_1000">10:00HRS</option>
-                                                    <option value="imp_1030" id="imp_1030">10:30HRS</option>
-                                                    <option value="imp_1100" id="imp_1100">11:00HRS</option>
-                                                    <option value="imp_1130" id="imp_1130">11:30HRS</option>
-                                                    <option value="imp_1200" id="imp_1200">12:00HRS</option>
-                                                    <option value="imp_1230" id="imp_1230">12:30HRS</option>
-                                                    <option value="imp_1300" id="imp_1300">13:00HRS</option>
-                                                    <option value="imp_1330" id="imp_1330">13:30HRS</option>
-                                                    <option value="imp_1400" id="imp_1400">14:00HRS</option>
-                                                    <option value="imp_1430" id="imp_1430">14:30HRS</option>
-                                                    <option value="imp_1500" id="imp_1500">15:00HRS</option>
-                                                    <option value="imp_1530" id="imp_1530">15:30HRS</option>
-                                                    <option value="imp_1600" id="imp_1600">16:00HRS</option>
-                                                    <option value="imp_1630" id="imp_1630">16:30HRS</option>
-                                                    <option value="imp_1700" id="imp_1600">17:00HRS</option>
-
-                                                </select>
-                                            </div>
-                                      </form>
-                                    </p>
-                                    <div class="row">
-                                        <div class="col-md-6 col-sm-12 text-center">
-                                            <a class="btn btn-lg btn-filled auto-width " href="#">Next Step</a>
+                                         <div class="row">
+                                        <div class="col-md-4 col-sm-12 text-center">
+                                            <a class="btn btn-lg btn-filled auto-width" href="booking-1.html">Previous Step</a>
+                                        </div> 
+                                        <div class="col-md-4 col-sm-12 text-center">
+                                            <a class="btn btn-lg btn-filled auto-width" href="booking-3.html">Next Step</a>
                                         </div>
-                                        <div class="col-md-6 col-sm-12 text-center">
-                                            <a class="btn btn-lg auto-width" href="#">Reset Form</a>
+                                        <div class="col-md-4 col-sm-12 text-center">
+                                            <a class="btn btn-lg btn-filled auto-width" href="#">Reset Form</a>
                                         </div>
                                     </div>
+                                      </form>
+                                    </p>
                                 </div>
                             </div>
                             
