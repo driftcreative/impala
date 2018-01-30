@@ -64,6 +64,10 @@ nav {
     width: 220px;
 }
 
+.scrolled .nav-bar {
+    line-height: 80px;
+}
+
 .vehicle-booking-container {
 	margin-top: -129px;
 	padding-top: 110px;
@@ -185,6 +189,7 @@ nav {
     font-size: 32px;
     line-height: 50px;
     text-align: center;
+    color: #d2d2d2;
     font-weight: bold;
 }
 
@@ -198,6 +203,7 @@ nav {
     font-family: "themify";
     font-size: 32px;
     line-height: 50px;
+    color: #d2d2d2;
     text-align: center;
     font-weight: bold
 }
