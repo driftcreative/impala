@@ -3,7 +3,47 @@
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-/* Styles */
+	/* Styles */
+	.breadcrumb-2 {
+		display: none;
+	}
+
+	.panel-title small {
+	    margin-bottom: 0px !important;
+	    display: block;
+	}
+
+	/* Fleet Page */
+	.listbtn {
+	    padding: 20px;
+	    border: 1px solid #cecece;
+	    border-radius: 40px;
+	    width: 70px;
+	    height: 70px;
+	    color: #1e1e1e;
+	    margin: 0 auto;
+	    margin-bottom: 20px;
+	    margin-top: 0px;
+	}
+
+
+	ul.vehicle_stats li {
+	    display: block;
+	    margin-left: 0px;
+	    font-weight: 400;
+	}
+
+	ul.vehicle_stats li:last-child {
+	    margin-top: 10px;
+	}
+
+	
+	.thumb{ 
+	width:auto;
+	height:150px !important;
+	
+	}
+
 }
 
 /* Smartphones (landscape) ----------- */
