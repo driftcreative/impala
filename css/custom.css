@@ -1,55 +1,57 @@
 /* Font Import 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Ubuntu'); */
 
+
+@import url("responsive.css");
 /* Header Styleing */
 
 .countrySelector {
-	z-index: 99999;
-	position: relative;
-	margin:auto;
-	left: 0;
-	right: 0;
+    z-index: 99999;
+    position: relative;
+    margin:auto;
+    left: 0;
+    right: 0;
 }
 
-.countrySelector ul {	
+.countrySelector ul {   
     margin-right: -10px;
 }
 
-.countrySelector  li a {	
-    text-transform: none !important;	
+.countrySelector  li a {    
+    text-transform: none !important;    
     font-size: 12px;
 }
 
 
 
 .countrySelector img {
-	margin-right:5px;
+    margin-right:5px;
 }
 
 .nav-utility {
-	overflow: visible !important;
+    overflow: visible !important;
 }
 
 nav {
-	max-width: 1366px !important;
+    max-width: 1366px !important;
   margin: 0 auto !important;
   left:  0 !important;
   right: 0 !important;
 }
 
 .border-right {
-	border-left:1px solid #073924;
-	padding-left:20px;
+    border-left:1px solid #073924;
+    padding-left:20px;
 }
 
 
 
 .social-menu a {
-	   display: inline;
+       display: inline;
 }
 
 .social-menu a:hover:after {
-	 background: #063f24;
+     background: #063f24;
     background: rgba(0,0,0,.8);
     border-radius: 5px;
     bottom: -45px;
@@ -69,105 +71,105 @@ nav {
 }
 
 .vehicle-booking-container {
-	margin-top: -129px;
-	padding-top: 110px;
+    margin-top: -129px;
+    padding-top: 110px;
 }
 
 .vehicle-booking {
-	background: #1e1e1e;
-	padding: 20px;
+    background: #1e1e1e;
+    padding: 20px;
 }
 
 .home .vehicle-booking:before{
-	content:'';
-	display: block;
-	width:511px;
-	height: 189px;
-	position: absolute;
-	z-index: 9999;
-	right: 0;
-	top: -90px;
-	background: url(../images/booking_top.png) center no-repeat;
-	background-size: contain;
+    content:'';
+    display: block;
+    width:511px;
+    height: 189px;
+    position: absolute;
+    z-index: 9999;
+    right: 0;
+    top: -90px;
+    background: url(../images/booking_top.png) center no-repeat;
+    background-size: contain;
 }
 .vehicle-booking small{
-	margin-top:-40px !important;
-	color: #fff;	
-	line-height: 1em;
+    margin-top:-40px !important;
+    color: #fff;    
+    line-height: 1em;
 }
 
 @media all and (max-width: 767px) {
-	.vehicle-booking:before	
-		{
-			content:'';				
-		display: block;
-		width:311px;
-		height: 189px;
-		position: absolute;
-		z-index: 9999;
-		right: 10%;
-		top: -120px;
-		background: url(../images/booking_top.png) center no-repeat;
-		background-size: contain;
-	 	}	
+    .vehicle-booking:before 
+        {
+            content:'';             
+        display: block;
+        width:311px;
+        height: 189px;
+        position: absolute;
+        z-index: 9999;
+        right: 10%;
+        top: -120px;
+        background: url(../images/booking_top.png) center no-repeat;
+        background-size: contain;
+        }   
 
- 	.vehicle-booking-container {
-		margin-top: -189px;
-		padding-top: 90px;
-		}
+    .vehicle-booking-container {
+        margin-top: -189px;
+        padding-top: 90px;
+        }
 
- 	.border-right {
-		border-left:none;
-		float:left !important;
-		width:50% !important;
-		padding-left:0;
-	}
+    .border-right {
+        border-left:none;
+        float:left !important;
+        width:50% !important;
+        padding-left:0;
+    }
 
-	.vehicle_slider {
-		max-height: 710px !important;
-	}
+    .vehicle_slider {
+        max-height: 710px !important;
+    }
 
-	.vehicle_slider table {
-		display: none;
-	}
+    .vehicle_slider table {
+        display: none;
+    }
 
-	.home .vehicle-booking:before{
-	content:'';
-	display: block;
-	width:511px;
-	height: 109px;
-	position: absolute;
-	z-index: 9999;
-	left: 0px;
-	top: -90px;
-	background: url(../images/booking_top.png) center no-repeat;
-	background-size: contain;
+    .home .vehicle-booking:before{
+    content:'';
+    display: block;
+    width:511px;
+    height: 109px;
+    position: absolute;
+    z-index: 9999;
+    left: 0px;
+    top: -90px;
+    background: url(../images/booking_top.png) center no-repeat;
+    background-size: contain;
 }
 
 
-	.vehicle_slider .btn {
-		display: none;
-	}
+    .vehicle_slider .btn {
+        display: none;
+    }
 
-	.services {
-		text-align: center !important;
-	}
-	.services img {
-		width: 50%;
-	}
+    .services {
+        text-align: center !important;
+    }
+    .services img {
+        width: 50%;
+    }
 
-	.imp_icon img {
+    .imp_icon img {
     width: 50% !important;
     text-align: center;
-	}
+    }
 
-	.text-center-large {
+    .text-center-large {
     font-size: 155px !important;
 }
 
 
 .time-control select {
-	width: 100% !important;
+    width: 100% !important;
 }
 
 .time-control {
@@ -210,11 +212,11 @@ nav {
 
 
 .m0 {
-	margin:0 !important;
+    margin:0 !important;
 }
 
 .auto-width {
-	width: 58% !important;
+    width: 58% !important;
 }
 
 span.control-title {
@@ -246,7 +248,7 @@ span.control-title {
 
 
 .text-white {
-	color:#fff;
+    color:#fff;
 }
 .services {
     background: #063f24;
@@ -256,17 +258,17 @@ span.control-title {
 }
 
 .services_container {
-	background: url(../images/keys.png) 5% 60%;
-	background-repeat: no-repeat;
+    background: url(../images/keys.png) 5% 60%;
+    background-repeat: no-repeat;
 }
 
 
 .strong {
-	font-weight: 800 !important;
+    font-weight: 800 !important;
 }
 
 .imp_icon {
-	margin-right:20px;
+    margin-right:20px;
 }
 
 .imp_icon img {
@@ -280,16 +282,16 @@ span.control-title {
 
 
 .vehicle_slider {
-	background: #d8d8d8;
-	height: auto;
-	padding: 0;
-	max-height: 350px;
+    background: #d8d8d8;
+    height: auto;
+    padding: 0;
+    max-height: 350px;
 }
 
 .fleet_details {
-	background:url(../images/fleet_bg.png) center center no-repeat;
-	background-size: contain;
-	padding: 30px;
+    background:url(../images/fleet_bg.png) center center no-repeat;
+    background-size: contain;
+    padding: 30px;
 }
 
 .text-center-large {
@@ -301,10 +303,10 @@ span.control-title {
 }
 
 .borders {
-	border-top:1px solid #fff;
-	border-bottom:1px solid #fff;
-	padding: 5px 0px 5px 0px;
-	font-size: 21px;
+    border-top:1px solid #fff;
+    border-bottom:1px solid #fff;
+    padding: 5px 0px 5px 0px;
+    font-size: 21px;
 }
 
 
@@ -323,19 +325,19 @@ span.control-title {
 }
 
 .noborder {
-	border:none;
+    border:none;
 }
 
 .fullwidth {
-	width:100%;
+    width:100%;
 }
 
 .drop {
-	margin-top: 0px !important;
+    margin-top: 0px !important;
 }
 
 .drop:before {
-	background: none !important;
+    background: none !important;
 }
 
 
@@ -346,7 +348,7 @@ ol.cd-multi-steps {
     margin-top: 60px;
     list-style: none;
     text-align:center;
-	margin-bottom:100px;
+    margin-bottom:100px;
 }
 
 ol.cd-multi-steps li {
@@ -408,20 +410,98 @@ ol.cd-multi-steps li:last-child:before {
 }
 
 .cd-multi-steps li.current:before {
-	background:#063F24 !important;	
+    background:#063F24 !important;  
 }
 
 
 .cd-multi-steps li.visited:before {
-	background:#18b36a !important;	
+    background:#18b36a !important;  
 }
 
 .cd-multi-steps li:after {
-	content:'';
-	width:100%;
-	border-bottom:1px solid #fff;
+    content:'';
+    width:100%;
+    border-bottom:1px solid #fff;
 }
 
 .vehicle-booking-container  div {
-	color: #fff !important;
+    color: #fff !important;
+}
+
+.breadcrumb-header.text-white {
+    margin-top: -60px;
+}
+
+
+/* Fleet Page */
+.listbtn {
+    padding: 20px;
+    border: 1px solid #cecece;
+    border-radius: 40px;
+    width: 70px;
+    height: 70px;
+    color: #1e1e1e;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: -50px;
+}
+
+.panel-title a {
+    color: #1e1e1e;
+}
+
+.panel-title small {
+    margin-bottom: -40px !important;
+    display: block;
+}
+
+.panel-title p {
+    line-height:1.3em;
+    font-size:16px;
+    margin-top:10px;
+}
+
+.panel-title .btn {
+    border:none;
+}
+
+.floatLeft {
+    float:left;
+}
+
+img.thumb {
+    height: 100px;
+}
+
+ul.vehicle_stats li:first-child {
+    display: inline;
+    margin-left: 0px;
+}
+
+ul.vehicle_stats li {
+    display: inline;
+    margin-left: 50px;
+    font-weight: 400;
+}
+
+ul.vehicle_stats .transmission_icon {
+  padding-left: 22px;
+  background: url(../images/icons/gears-icon.png) no-repeat left;
+  padding-top: 5px;
+}
+
+ul.vehicle_stats .petrol_icon {
+  padding-left: 22px;
+  background: url(../images/icons/gasoline-icon.png) no-repeat left;
+  padding-top: 5px;
+}
+ul.vehicle_stats .aircon_icon {
+  padding-left: 22px;
+  background: url(../images/icons/aircon-icon.png) no-repeat left;
+  padding-top: 5px;
+}
+ul.vehicle_stats .radio_icon {
+  padding-left: 22px;
+  background: url(../images/icons/radio-icon.png) no-repeat left;
+  padding-top: 5px;
 }

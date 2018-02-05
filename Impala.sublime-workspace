@@ -1,0 +1,352 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ve",
+				"fleet_vehicles"
+			],
+			[
+				"Lef",
+				"text-left"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"fleet",
+				"fleet_vehicles"
+			],
+			[
+				"text-",
+				"text-white"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"text",
+				"text-left"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"te",
+				"text-white"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"image-",
+				"image-bg"
+			],
+			[
+				"xs",
+				"text-center-xs"
+			],
+			[
+				"of",
+				"col-md-offset-1"
+			],
+			[
+				"tex",
+				"text-center"
+			],
+			[
+				"wid",
+				"auto-width"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"c",
+				"contain"
+			],
+			[
+				"im",
+				"important"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 135.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"prettif",
+				"HTMLPrettify"
+			],
+			[
+				"Pack\t",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Install Package Control"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/dev/impala/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/dev/impala/css/responsive.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/dev/impala/css/custom.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/dev/impala/css/bootstrap.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/dev/impala/css/theme.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/dev/impala/fleet.html",
+		"/Users/user/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/dev/impala/css/unset.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/dev/impala/blank.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/dev/impala/css/themify-icons.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/dev/impala/booking-1.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/dev/impala/booking-2.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/dev/impala/booking-3.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/dev/impala/booking-confirm.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/dev/impala/js/scripts.js",
+		"/Users/user/Documents/Design Resources/Web/Code Snippets/HTML/Breadcrumbs/breadcrumbs-and-multistep-indicator/css/style.css",
+		"/Users/user/Documents/Design Resources/Web/Code Snippets/HTML/Breadcrumbs/breadcrumbs-and-multistep-indicator/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/dev/impala/deploy.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/dev/installers/foundry/index.html"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"float:left",
+			".float",
+			"-4",
+			"> ",
+			">\n",
+			"h3",
+			"'",
+			"2",
+			"div",
+			"fefefe",
+			"booking.html",
+			"col-md-2",
+			"Information",
+			"strong",
+			"col-md-6",
+			"type",
+			"<div class=\"col-md-6\">\n                                                <input class=\"\" type=\"text\" name=\"First Name\">\n                                            </div>",
+			"btn-",
+			"fullwidth",
+			"full-width",
+			"width",
+			" <li class=\"mb32\">\n                                         <div class=\"horizontal-tile vpe\">\n                                            <div class=\"tile-left\">\n                                                 <div class=\"col-md-7 fleet_details\">\n                                                   <h4 class=\"uppercase text-center text-white mt8\"><Strong>Vehicle Group</Strong></h4><br>\n                                                   <span class=\"text-center-large\">A</span><br>\n                                                   <h4 class=\"uppercase text-center text-white borders mt16\"><Strong>Hatch Backs</Strong></h4>\n\n                                                </div>\n                                                <div class=\"col-md-5\">\n                                                    <div class=\"background-image-holder\">\n                                                    <img alt=\"Toyota Corolla\" class=\"background-image\" src=\"images/fleet_vehicles/kwid.jpg\">\n                                                    </div>\n                                                </div>\n                                            </div>\n                                            <div class=\"tile-right\">\n                                                <div class=\"description\">\n                                                    <h4 class=\"mb8\"><strong>Standard Group Features</strong></h4>\n                                                    <h6 class=\"uppercase\">\n                                                        Graphic Design\n                                                    </h6>\n                                                    <p>\n                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \n                                                    </p>\n                                                </div>\n                                            </div>\n                                        </div>\n                                    </li>",
+			"Renault",
+			"title-right",
+			"p",
+			"col-md-6",
+			">\n",
+			"<div class=\"col-md-6\">\n                                                   <p>Vehicle Here</p> \n                                                </div>",
+			"horizontal-tile",
+			"vpe",
+			"carou",
+			"vpe",
+			"> ",
+			"div",
+			"169px",
+			"strong",
+			"uppercase",
+			"col-md-4",
+			"auto",
+			"droppOffDate",
+			"Pick Up",
+			"margin-left: 0",
+			"location",
+			"pin",
+			"imp_Bulawayo",
+			"90px",
+			"twitter",
+			"small",
+			"xs",
+			"small",
+			"hidden-sm",
+			"main-container",
+			"ffffff",
+			"image-slider",
+			"option",
+			"boxed",
+			".bg-dark",
+			"bg-dark",
+			"nav-container",
+			"class=\"module left\"",
+			"Zimbabwe",
+			"float",
+			"Zimbabwe",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"booking-1.html"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Impala.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 201.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

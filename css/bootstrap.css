@@ -5322,7 +5322,6 @@ a.list-group-item:focus,
 button.list-group-item:focus {
   color: #555;
   text-decoration: none;
-  background-color: #f5f5f5;
 }
 button.list-group-item {
   width: 100%;
@@ -5505,10 +5504,15 @@ button.list-group-item-danger.active:focus {
   padding: 15px;
 }
 .panel-heading {
-  padding: 10px 15px;
   border-bottom: 1px solid transparent;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
+}
+
+.panel-heading h3 {
+  background:#eaeef3;
+  padding:5px;
+  font-size: 24px;
 }
 .panel-heading > .dropdown .dropdown-toggle {
   color: inherit;
@@ -5733,7 +5737,6 @@ button.list-group-item-danger.active:focus {
 }
 .panel-default > .panel-heading {
   color: #333;
-  background-color: #f5f5f5;
   border-color: #ddd;
 }
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
