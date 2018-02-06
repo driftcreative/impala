@@ -11,6 +11,7 @@
         <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/responsive.css" rel="stylesheet" type="text/css" media="all" />
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
     </head>
     <body class="home">
@@ -143,19 +144,22 @@
                                             </div>
                                         </div>
                                         <div class="row pickupDate">
-                                            <div class="col-md-5 col-sm-12 location-control ">
-                                                <span class="control-title">Pick Up</span>
-                                                 <select id="imp_vehicleGroup" class="auto-width" >
-                                                    <option selected value="null">Pick Up Location</option>
-                                                    <option value="imp_Harare" id="imp_Harare">Harare</option>
-                                                    <option valude="imp_Bulawayo" id="img_Bulawayo">Bulawayo</option>
-                                                    <option valude="imp_VictoriaFallss" id="img_VictoriaFalls">Victoria Falls</option>
-
-                                                </select>
+                                            <div class="col-md-5 col-sm-12 ">
+                                                <div class="input-group input-group-lg">
+                                                    <span class="input-group-addon"><i class="ti-location-pin"></i> Pick Up</span>      
+                                                     <select id="imp_vehicleGroup" class="" >
+                                                        <option selected value="null">Pick Up Location</option>
+                                                        <option value="imp_Harare" id="imp_Harare">Harare</option>
+                                                        <option valude="imp_Bulawayo" id="img_Bulawayo">Bulawayo</option>
+                                                        <option valude="imp_VictoriaFallss" id="img_VictoriaFalls">Victoria Falls</option>
+                                                    </select>
+                                                </div>
                                             </div>
-                                            <div class="col-md-4 col-sm-10 date-control" >
-                                               <span class="control-title">Pick Up</span>
-                                                <input type='text' value="Pick Up Date" class="m0 auto-width date-time" id='imp_pickUp_Date' /> 
+                                            <div class="col-md-4 col-sm-10" >
+                                              <div class="input-group input-group-lg">
+                                                    <span class="input-group-addon"><i class="ti-calendar"></i> Pick Up</span>      
+                                                <input type='text' value="Pick Up Date" class="m0 date-time" id='imp_pickUp_Date' /> 
+                                            </div>
                                             </div>     
                                              <div class="col-md-3 col-sm-10 time-control">
                                                 <select id="imp_pickup_Time" >
@@ -185,19 +189,22 @@
                                         </div>
 
                                             <div class="row dropOffDate">
-                                            <div class="col-md-5 col-sm-12 location-control ">
-                                               <span class="control-title">Drop Off</span>
-                                                 <select id="imp_vehicle-group" class="auto-width" >
+                                            <div class="col-md-5 col-sm-12  ">
+                                               <div class="input-group input-group-lg">
+                                                    <span class="input-group-addon"><i class="ti-location-pin"></i> Drop Off</span>      
+                                                 <select id="imp_vehicle-group" class="" >
                                                     <option selected value="null">Drop Off Location</option>
                                                     <option value="imp_pickup_Harare" id="imp_pickup_Harare">Harare</option>
                                                     <option valude="imp_pickup_Bulawayo" id="img_pickup_Bulawayo">Bulawayo</option>
                                                     <option valude="imp_pickup_VictoriaFallss" id="img_pickup_ictoriaFalls">Victoria Falls</option>
-
                                                 </select>
                                             </div>
-                                            <div class="col-md-4 col-sm-10 date-control" >
-                                               <span class="control-title">Drop Off</span>
-                                                <input type='text' value="Drop Off Date" class="m0 auto-width date-time" id='imp_dropOff_Date' /> 
+                                            </div>
+                                            <div class="col-md-4 col-sm-10" >
+                                               <div class="input-group input-group-lg">
+                                                    <span class="input-group-addon"><i class="ti-calendar"></i> Drop Off</span>      
+                                                <input type='text' value="Drop Off Date" class="m0 date-time" id='imp_dropOff_Date' /> 
+                                            </div>
                                             </div>     
                                              <div class="col-md-3 col-sm-10 time-control">
                                                 <select id="imp_dropOff_Time">
@@ -228,10 +235,10 @@
                                     </p>
                                     <div class="row">
                                         <div class="col-md-6 col-sm-12 text-center">
-                                            <a class="btn btn-lg btn-filled auto-width " href="booking-2.html">Make Booking</a>
+                                            <a class="btn btn-lg btn-filled  " href="booking-2.html">Make Booking</a>
                                         </div>
                                         <div class="col-md-6 col-sm-12 text-center">
-                                            <a class="btn btn-lg auto-width" href="#">Reset Form</a>
+                                            <a class="btn btn-lg " href="#">Reset Form</a>
                                         </div>
                                     </div>
                                 </div>
@@ -247,7 +254,7 @@
                 <div class="container">
                      <div class="row">
                         <div class="col-sm-12 text-center  mb64">
-                            <h2 class="uppercase heading2 mb0">Our Services</h2>
+                            <h2 class="uppercase heading2 mb0 strong">Our Services</h2>
                             <span class="text-center uppercase col-sm-12">Giving you the Best of What we Do</span>
                         </div>
                     </div>
@@ -319,7 +326,7 @@
             <section class="t0 pb0">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-sm-12 text-center  mb64">
+                                    <div class="col-sm-12 text-center  mb64 mt32">
                                         <h2 class="uppercase heading2 mb0">Our Fleet</h2>
                                         <span class="text-center uppercase col-sm-12">The classes of cars we have in our huge fleet</span>
                                     </div>
