@@ -10,6 +10,7 @@
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/angular-bootstrap-datepicker.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
     </head>
@@ -98,7 +99,7 @@
                                         </ol>
                                     </p>
                                     <p class="lead mb40">
-                                      <form>
+                                       <form>
                                         <div class="row">
                                             <div class="col-md-12">
                                                <select id="imp_Vehicles">
@@ -148,19 +149,22 @@
                                             </div>
                                         </div>
                                         <div class="row pickupDate">
-                                            <div class="col-md-5 col-sm-12 location-control ">
-                                                <span class="control-title">Pick Up</span>
-                                                 <select id="imp_vehicleGroup" class="auto-width" >
-                                                    <option selected value="null">Pick Up Location</option>
-                                                    <option value="imp_Harare" id="imp_Harare">Harare</option>
-                                                    <option valude="imp_Bulawayo" id="img_Bulawayo">Bulawayo</option>
-                                                    <option valude="imp_VictoriaFallss" id="img_VictoriaFalls">Victoria Falls</option>
-
-                                                </select>
+                                            <div class="col-md-5 col-sm-12 ">
+                                                <div class="input-group input-group-lg">
+                                                    <span class="input-group-addon"><i class="ti-location-pin"></i> Pick Up</span>      
+                                                     <select id="imp_vehicleGroup" class="" >
+                                                        <option selected value="null">Pick Up Location</option>
+                                                        <option value="imp_Harare" id="imp_Harare">Harare</option>
+                                                        <option valude="imp_Bulawayo" id="img_Bulawayo">Bulawayo</option>
+                                                        <option valude="imp_VictoriaFallss" id="img_VictoriaFalls">Victoria Falls</option>
+                                                    </select>
+                                                </div>
                                             </div>
-                                            <div class="col-md-4 col-sm-10 date-control" >
-                                               <span class="control-title">Pick Up</span>
-                                                <input type='text' value="Pick Up Date" class="m0 auto-width date-time" id='imp_pickUp_Date' /> 
+                                            <div class="col-md-4 col-sm-10" >
+                                              <div class="input-group input-group-lg">
+                                                    <span class="input-group-addon"><i class="ti-calendar"></i> Pick Up</span>      
+                                                <input type='text' value="Pick Up Date" class="m0 date-time" id='imp_pickUp_Date' /> 
+                                            </div>
                                             </div>     
                                              <div class="col-md-3 col-sm-10 time-control">
                                                 <select id="imp_pickup_Time" >
@@ -190,19 +194,22 @@
                                         </div>
 
                                             <div class="row dropOffDate">
-                                            <div class="col-md-5 col-sm-12 location-control ">
-                                               <span class="control-title">Drop Off</span>
-                                                 <select id="imp_vehicle-group" class="auto-width" >
+                                            <div class="col-md-5 col-sm-12  ">
+                                               <div class="input-group input-group-lg">
+                                                    <span class="input-group-addon"><i class="ti-location-pin"></i> Drop Off</span>      
+                                                 <select id="imp_vehicle-group" class="" >
                                                     <option selected value="null">Drop Off Location</option>
                                                     <option value="imp_pickup_Harare" id="imp_pickup_Harare">Harare</option>
                                                     <option valude="imp_pickup_Bulawayo" id="img_pickup_Bulawayo">Bulawayo</option>
                                                     <option valude="imp_pickup_VictoriaFallss" id="img_pickup_ictoriaFalls">Victoria Falls</option>
-
                                                 </select>
                                             </div>
-                                            <div class="col-md-4 col-sm-10 date-control" >
-                                               <span class="control-title">Drop Off</span>
-                                                <input type='text' value="Drop Off Date" class="m0 auto-width date-time" id='imp_dropOff_Date' /> 
+                                            </div>
+                                            <div class="col-md-4 col-sm-10" >
+                                               <div class="input-group input-group-lg">
+                                                    <span class="input-group-addon"><i class="ti-calendar"></i> Drop Off</span>      
+                                                <input type='text' value="Drop Off Date" class="m0 date-time" id='imp_dropOff_Date' /> 
+                                            </div>
                                             </div>     
                                              <div class="col-md-3 col-sm-10 time-control">
                                                 <select id="imp_dropOff_Time">
@@ -432,10 +439,12 @@
         <script src="js/bootstrap-datetimepicker.min.js"></script>
 
         <script type="text/javascript">
-            $(function () {
+            $(document).ready(function() {
             $('.date-time').datetimepicker({
-                viewMode: 'years',
-                format: 'MM/YYYY'
+                    format      :   "YYYY/MM/DD",
+                    autoclose   :   true,
+                    pickTime    :   false,
+
             });
         });
         </script>
