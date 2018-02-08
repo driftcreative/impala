@@ -1,126 +1,163 @@
-
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
+@media only screen
+and (min-device-width:320px)
+and (max-device-width:480px) {
+
 	/* Styles */
 	.breadcrumb-2 {
 		display: none;
 	}
 
 	.panel-title small {
-	    margin-bottom: 0px !important;
-	    display: block;
+		margin-bottom: 0px !important;
+		display: block;
 	}
 
 	/* Fleet Page */
 	.listbtn {
-	    padding: 20px;
-	    border: 1px solid #cecece;
-	    border-radius: 40px;
-	    width: 70px;
-	    height: 70px;
-	    color: #1e1e1e;
-	    margin: 0 auto;
-	    margin-bottom: 20px;
-	    margin-top: 0px;
+		padding: 20px;
+		border: 1px solid #cecece;
+		border-radius: 40px;
+		width: 70px;
+		height: 70px;
+		color: #1e1e1e;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		margin-top: 0px;
 	}
 
-
 	ul.vehicle_stats li {
-	    display: block;
-	    margin-left: 0px;
-	    font-weight: 400;
+		display: block;
+		margin-left: 0px;
+		font-weight: 400;
 	}
 
 	ul.vehicle_stats li:last-child {
-	    margin-top: 10px;
+		margin-top: 10px;
 	}
 
-
-	.thumb{ 
-		width:auto;
-		height:150px !important;
-	
+	.thumb {
+		width: auto;
+		height: 150px !important;
 	}
 
 	.auto-width {
-    	width: 59% !important;
+		width: 59% !important;
 	}
 
 	.panel-title {
-		padding:15px;
+		padding: 15px;
+	}
+
+	.image-slider.height-70 .slides li {
+		height: auto;
+		min-height: none;
+		padding: 40px 0 !important;
+	}
+
+	ol.cd-multi-steps li {
+		display: inline-block;
+		margin-left: 30px !important;
+	}
+
+	ol.cd-multi-steps {
+		max-height: 130px !important;
+		margin-top: 0px !important;
+		list-style: none;
+		text-align: center;
+		margin-bottom: 100px;
+	}
+
+	.breadcrumb-header {
+		text-align: center !important;
+	}
+
+	.breadcrumb-header .breadcrumb {
+		text-align: center !important;
 	}
 
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-/* Styles */
+@media only screen
+and (min-width:321px) {
+
+	/* Styles */
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-/* Styles */
+@media only screen
+and (max-width:320px) {
+
+	/* Styles */
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Styles */
+@media only screen
+and (min-device-width:768px)
+and (max-device-width:1024px) {
 
+	/* Styles */
+	
+	.breadcrumb-header {
+		text-align: center !important;
+	}
+
+	.breadcrumb-header .breadcrumb {
+		text-align: center !important;
+	}
 }
 
 /* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
-	.home .vehicle-booking:before{
+@media only screen
+and (min-device-width:768px)
+and (max-device-width:1024px)
+and (orientation:landscape) {
+
+	/* Styles */
+	.home .vehicle-booking:before {
 		width: 381px !important;
 		height: 199px;
 	}
 
 	.nav-bar {
-	  line-height: 60px;
+		line-height: 60px;
 	}
 
 	.menu li a {
-  font-size: 14px;
-}
+		font-size: 14px;
+	}
 
+	ul.vehicle_stats li {
+		margin-left: 20px;
+	}
 
-ul.vehicle_stats li {
-    margin-left: 20px;
-}
+	/* iPads (portrait) ----------- */
+	@media only screen
+	and (min-device-width:768px)
+	and (max-device-width:1024px)
+	and (orientation:portrait) {
 
-/* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-/* Styles */
-}
+		/* Styles */
+	}
 
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-/* Styles */
-}
+	/* Desktops and laptops ----------- */
+	@media only screen
+	and (min-width:1224px) {
 
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-/* Styles */
-}
+		/* Styles */
+	}
 
-/* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
-}
+	/* Large screens ----------- */
+	@media only screen
+	and (min-width:1824px) {
+
+		/* Styles */
+	}
+
+	/* iPhone 4 ----------- */
+	@media
+	only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-device-pixel-ratio:1.5) {
+
+		/* Styles */
+	}

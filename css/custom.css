@@ -428,9 +428,7 @@ ol.cd-multi-steps li:last-child:before {
     color: #fff !important;
 }
 
-.breadcrumb-header.text-white {
-    margin-top: -60px;
-}
+
 
 
 /* Fleet Page */
@@ -522,4 +520,24 @@ ul.vehicle_stats .radio_icon {
     background: #fff;
     color: #949494 !important;
     font-size: 15px !important;
+}
+
+blockqoute {
+    font-size: 32px;
+    line-height: 1.3em;
+    font-style: italic;
+}
+
+.bg-grey {
+    background: #fefefe;
+}
+
+.awards h4 {
+    font-size: 16px;
+    line-height: 1.4em;
+    font-weight: bold;
+}
+
+.awards p {
+    line-height: 1.2em;
 }

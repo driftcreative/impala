@@ -320,8 +320,9 @@ h2 {
   line-height: 25px;
 }
 h3 {
-  font-size: 32px;
+  font-size: 42px;
   line-height: 40px;
+  font-weight: 800;
 }
 h4 {
   font-size: 24px;
@@ -484,9 +485,7 @@ blockquote .author {
   -webkit-column-count: 2;
 }
 @media all and (max-width: 767px) {
-  br {
-    display: none;
-  }
+
   blockquote {
     font-size: 16px;
     line-height: 32px;
@@ -2532,6 +2531,9 @@ button[type="submit"] .form-loading {
 /*!---------- 16. BREADCRUMBS ----------*/
 .breadcrumb {
   margin-bottom: 24px;
+}
+.breadcrumb-header {
+  margin-top:-50px;
 }
 .breadcrumb-2 {
   background: none;
