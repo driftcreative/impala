@@ -541,3 +541,18 @@ blockqoute {
 .awards p {
     line-height: 1.2em;
 }
+
+.accordion .content p {
+    font-size: 20px;
+    line-height: 1.4em;
+    font-style: italic;
+}
+.accordion .content {
+    padding-left:35px;
+}
+
+
+.accordion .title {
+    font-size:28px;
+    font-weight: 800;
+}
