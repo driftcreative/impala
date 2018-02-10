@@ -556,3 +556,67 @@ blockqoute {
     font-size:28px;
     font-weight: 800;
 }
+
+.underline:after {
+    padding-top: 10px;
+    border-bottom: 5px solid #05361e;
+    width: 65px;
+    display: block;
+    content: '';
+}
+
+.contacts .address {
+    background:url(../images/icons/location.png);
+    background-repeat: no-repeat;
+    background-position: left 5px;
+    padding-left: 20px;
+}
+
+.contacts .phone {
+    background:url(../images/icons/phone.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+}
+
+.contacts .mail {
+    background:url(../images/icons/mail.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+}
+
+.contacts .web {
+    background:url(../images/icons/web.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+}
+
+.contact-location .title {
+    background: #05371f;
+    color: #fff !important;
+}
+
+.contact-location .title h4 {
+    background: #05371f;
+    font-weight:800;
+    color: #fff !important;
+    padding-left:10px
+}
+
+.contact-location .active .content {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.social-list li i {
+    font-size:52px;
+    color:#053820 !important;
+}
+
+.social-list li {
+    width:23%;
+    margin-top:10px;
+
+}
