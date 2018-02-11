@@ -516,28 +516,12 @@ $(document).ready(function() {
     	if(!jQuery(this).find('.close-modal').length){
     		jQuery(this).append(jQuery('<i class="ti-close close-modal">'));
     	}
-    	var modal = jQuery(this);
-
-        if(typeof modal.attr('data-cookie') != "undefined"){
-           
-            if(!mr_cookies.hasItem(modal.attr('data-cookie'))){
-            	setTimeout(function(){
-            		modal.addClass('reveal-modal');
-            	},1000);
-            }
-        }else{
-            setTimeout(function(){
-                    modal.addClass('reveal-modal');
-            },1000);
-        }
+    	
     });
     
     jQuery('.modal-strip .close-modal').click(function(){
         var modal = jQuery(this).closest('.modal-strip');
-        if(typeof modal.attr('data-cookie') != "undefined"){
-            mr_cookies.setItem(modal.attr('data-cookie'), "true", Infinity);
-        }
-    	jQuery(this).closest('.modal-strip').removeClass('reveal-modal');
+    	   jQuery(this).closest('.modal-strip').removeClass('reveal-modal');
     	return false;
     });
 
