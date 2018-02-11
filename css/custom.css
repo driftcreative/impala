@@ -40,8 +40,7 @@ nav {
 }
 
 .border-right {
-    border-left:1px solid #073924;
-    padding-left:20px;
+    padding-left:40px;
 }
 
 
@@ -610,12 +609,12 @@ blockqoute {
     padding-bottom:10px;
 }
 
-.social-list li i {
+.contact-location .social-list li i {
     font-size:52px;
     color:#053820 !important;
 }
 
-.social-list li {
+.contact-location .social-list li {
     width:23%;
     margin-top:10px;
 
