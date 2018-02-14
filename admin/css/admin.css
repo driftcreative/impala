@@ -101,6 +101,16 @@ ul.vehicle_stats .radio_icon {
   padding-top: 5px;
 }
 
+/* Height Fix */
+.fullheight {
+    min-height: 580px !important;
+    height: 580px !important;
+}
+
+
+
+
+
 .input-group {
     margin-bottom: 20px;
 }
